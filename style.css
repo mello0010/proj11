@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte moderna e limpa */
+    background-color: #0f0f14; /* Fundo escuro (Dark Mode) */
+    color: #e1e1e6;           /* Cor principal do texto */
+    line-height: 1.6;         /* Espaçamento entre linhas para melhor leitura */
+    margin: 20px;
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    text-align: center;
+    border-bottom: 2px solid #00ff88; /* Linha verde neon de destaque */
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+}
+
+/* HIERARQUIA DE TÍTULOS */
+h2 {
+    color: #00ff88; /* Verde neon */
+    border-left: 4px solid #9966ff; /* Detalhe roxo à esquerda */
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #9966ff; /* Roxo */
+    margin-top: 20px;
+}
+
+h4 {
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+/* PARÁGRAFOS E ELEMENTOS DE TEXTO */
+p {
+    margin-bottom: 10px;
+}
+
+/* DESTAQUES SEMÂNTICOS */
+strong {
+    color: #00ff88; /* Preço final destacado em verde */
+}
+
+em {
+    color: #c4b5fd; /* Destaques em roxo claro */
+}
+
+del {
+    color: #787880; /* Valor riscado em cinzento */
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+    border-top: 1px solid #292938;
+    margin-top: 40px;
+    padding-top: 15px;
+    color: #787880;
+    font-size: 0.9rem;
+}
